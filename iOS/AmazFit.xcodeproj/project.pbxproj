@@ -14,6 +14,8 @@
 		CD939A321E65648300B4FD38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD939A311E65648300B4FD38 /* ViewController.m */; };
 		CD939A351E65649100B4FD38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD939A341E65649100B4FD38 /* AppDelegate.m */; };
 		CD939A371E65649A00B4FD38 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD939A361E65649A00B4FD38 /* Info.plist */; };
+		CD939A3A1E65AD2D00B4FD38 /* AMFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD939A391E65AD2D00B4FD38 /* AMFButton.m */; };
+		CD939A3D1E65AD5800B4FD38 /* AMFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CD939A3C1E65AD5800B4FD38 /* AMFUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,10 @@
 		CD939A331E65649100B4FD38 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD939A341E65649100B4FD38 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD939A361E65649A00B4FD38 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD939A381E65AD2D00B4FD38 /* AMFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFButton.h; sourceTree = "<group>"; };
+		CD939A391E65AD2D00B4FD38 /* AMFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMFButton.m; sourceTree = "<group>"; };
+		CD939A3B1E65AD5800B4FD38 /* AMFUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFUtils.h; sourceTree = "<group>"; };
+		CD939A3C1E65AD5800B4FD38 /* AMFUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMFUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,8 @@
 		CD939A2D1E6563F500B4FD38 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				CD939A3B1E65AD5800B4FD38 /* AMFUtils.h */,
+				CD939A3C1E65AD5800B4FD38 /* AMFUtils.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -155,6 +163,8 @@
 		CD939A2E1E6563F500B4FD38 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CD939A381E65AD2D00B4FD38 /* AMFButton.h */,
+				CD939A391E65AD2D00B4FD38 /* AMFButton.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -241,6 +251,8 @@
 			files = (
 				CD939A321E65648300B4FD38 /* ViewController.m in Sources */,
 				CD939A0F1E6562F300B4FD38 /* main.m in Sources */,
+				CD939A3D1E65AD5800B4FD38 /* AMFUtils.m in Sources */,
+				CD939A3A1E65AD2D00B4FD38 /* AMFButton.m in Sources */,
 				CD939A351E65649100B4FD38 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +404,7 @@
 				CD939A231E6562F300B4FD38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
