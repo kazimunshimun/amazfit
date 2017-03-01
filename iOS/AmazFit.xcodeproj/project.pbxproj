@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD8A62DE1E66B85C00979AAC /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8A62DD1E66B85C00979AAC /* SignupViewController.m */; };
+		CD8A62E11E66B87100979AAC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8A62E01E66B87100979AAC /* LoginViewController.m */; };
 		CD939A0F1E6562F300B4FD38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD939A0E1E6562F300B4FD38 /* main.m */; };
 		CD939A181E6562F300B4FD38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD939A161E6562F300B4FD38 /* Main.storyboard */; };
 		CD939A1A1E6562F300B4FD38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD939A191E6562F300B4FD38 /* Assets.xcassets */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD8A62DC1E66B85C00979AAC /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		CD8A62DD1E66B85C00979AAC /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		CD8A62DF1E66B87100979AAC /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CD8A62E01E66B87100979AAC /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		CD939A0A1E6562F300B4FD38 /* AmazFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD939A0E1E6562F300B4FD38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD939A171E6562F300B4FD38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -174,6 +180,10 @@
 			children = (
 				CD939A301E65648300B4FD38 /* ViewController.h */,
 				CD939A311E65648300B4FD38 /* ViewController.m */,
+				CD8A62DC1E66B85C00979AAC /* SignupViewController.h */,
+				CD8A62DD1E66B85C00979AAC /* SignupViewController.m */,
+				CD8A62DF1E66B87100979AAC /* LoginViewController.h */,
+				CD8A62E01E66B87100979AAC /* LoginViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -249,9 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8A62DE1E66B85C00979AAC /* SignupViewController.m in Sources */,
 				CD939A321E65648300B4FD38 /* ViewController.m in Sources */,
 				CD939A0F1E6562F300B4FD38 /* main.m in Sources */,
 				CD939A3D1E65AD5800B4FD38 /* AMFUtils.m in Sources */,
+				CD8A62E11E66B87100979AAC /* LoginViewController.m in Sources */,
 				CD939A3A1E65AD2D00B4FD38 /* AMFButton.m in Sources */,
 				CD939A351E65649100B4FD38 /* AppDelegate.m in Sources */,
 			);
