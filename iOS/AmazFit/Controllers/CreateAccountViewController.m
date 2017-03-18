@@ -1,18 +1,18 @@
 //
-//  LoginViewController.m
+//  CreateAccountViewController.m
 //  AmazFit
 //
-//  Created by Anik on 3/1/17.
+//  Created by Anik on 3/18/17.
 //  Copyright © 2017 mTeam. All rights reserved.
 //
 
-#import "LoginViewController.h"
+#import "CreateAccountViewController.h"
 
-@interface LoginViewController ()
+@interface CreateAccountViewController ()
 
 @end
 
-@implementation LoginViewController
+@implementation CreateAccountViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,10 +23,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)backButtonTouchedInside:(id)sender {
-    [self.navigationController popToRootViewControllerAnimated:YES];
-}
 
+- (IBAction)backButtonTouchedInside:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 /*
 #pragma mark - Navigation
 

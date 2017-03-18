@@ -7,29 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844292D81E7D0D9600E41B41 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844292D71E7D0D9600E41B41 /* CreateAccountViewController.m */; };
+		8458C0AB1E7D87370050CE70 /* EmailLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458C0AA1E7D87370050CE70 /* EmailLoginViewController.m */; };
+		8458C0AE1E7D8B2C0050CE70 /* PasswordRecoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458C0AD1E7D8B2C0050CE70 /* PasswordRecoveryViewController.m */; };
+		84776A881E7B04F900D41E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84776A841E7B04F900D41E3E /* LaunchScreen.storyboard */; };
+		84776A891E7B04F900D41E3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84776A861E7B04F900D41E3E /* Main.storyboard */; };
 		CD8A62DE1E66B85C00979AAC /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8A62DD1E66B85C00979AAC /* SignupViewController.m */; };
 		CD8A62E11E66B87100979AAC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8A62E01E66B87100979AAC /* LoginViewController.m */; };
 		CD939A0F1E6562F300B4FD38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD939A0E1E6562F300B4FD38 /* main.m */; };
-		CD939A181E6562F300B4FD38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD939A161E6562F300B4FD38 /* Main.storyboard */; };
 		CD939A1A1E6562F300B4FD38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD939A191E6562F300B4FD38 /* Assets.xcassets */; };
-		CD939A1D1E6562F300B4FD38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD939A1B1E6562F300B4FD38 /* LaunchScreen.storyboard */; };
 		CD939A321E65648300B4FD38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD939A311E65648300B4FD38 /* ViewController.m */; };
 		CD939A351E65649100B4FD38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD939A341E65649100B4FD38 /* AppDelegate.m */; };
-		CD939A371E65649A00B4FD38 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD939A361E65649A00B4FD38 /* Info.plist */; };
 		CD939A3A1E65AD2D00B4FD38 /* AMFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD939A391E65AD2D00B4FD38 /* AMFButton.m */; };
 		CD939A3D1E65AD5800B4FD38 /* AMFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CD939A3C1E65AD5800B4FD38 /* AMFUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		844292D61E7D0D9600E41B41 /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
+		844292D71E7D0D9600E41B41 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
+		8458C0A91E7D87370050CE70 /* EmailLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailLoginViewController.h; sourceTree = "<group>"; };
+		8458C0AA1E7D87370050CE70 /* EmailLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailLoginViewController.m; sourceTree = "<group>"; };
+		8458C0AC1E7D8B2C0050CE70 /* PasswordRecoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordRecoveryViewController.h; sourceTree = "<group>"; };
+		8458C0AD1E7D8B2C0050CE70 /* PasswordRecoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordRecoveryViewController.m; sourceTree = "<group>"; };
+		84776A851E7B04F900D41E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AmazFit/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		84776A871E7B04F900D41E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AmazFit/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		CD8A62DC1E66B85C00979AAC /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
 		CD8A62DD1E66B85C00979AAC /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
 		CD8A62DF1E66B87100979AAC /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		CD8A62E01E66B87100979AAC /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		CD939A0A1E6562F300B4FD38 /* AmazFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD939A0E1E6562F300B4FD38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CD939A171E6562F300B4FD38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD939A191E6562F300B4FD38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD939A1C1E6562F300B4FD38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD939A301E65648300B4FD38 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CD939A311E65648300B4FD38 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CD939A331E65649100B4FD38 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -151,8 +159,8 @@
 		CD939A2C1E6563F500B4FD38 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				CD939A161E6562F300B4FD38 /* Main.storyboard */,
-				CD939A1B1E6562F300B4FD38 /* LaunchScreen.storyboard */,
+				84776A841E7B04F900D41E3E /* LaunchScreen.storyboard */,
+				84776A861E7B04F900D41E3E /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -184,6 +192,12 @@
 				CD8A62DD1E66B85C00979AAC /* SignupViewController.m */,
 				CD8A62DF1E66B87100979AAC /* LoginViewController.h */,
 				CD8A62E01E66B87100979AAC /* LoginViewController.m */,
+				844292D61E7D0D9600E41B41 /* CreateAccountViewController.h */,
+				844292D71E7D0D9600E41B41 /* CreateAccountViewController.m */,
+				8458C0A91E7D87370050CE70 /* EmailLoginViewController.h */,
+				8458C0AA1E7D87370050CE70 /* EmailLoginViewController.m */,
+				8458C0AC1E7D8B2C0050CE70 /* PasswordRecoveryViewController.h */,
+				8458C0AD1E7D8B2C0050CE70 /* PasswordRecoveryViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -214,11 +228,12 @@
 		CD939A021E6562F300B4FD38 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = mTeam;
 				TargetAttributes = {
 					CD939A091E6562F300B4FD38 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3EYUW49QFV;
 					};
 				};
 			};
@@ -245,10 +260,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD939A371E65649A00B4FD38 /* Info.plist in Resources */,
-				CD939A1D1E6562F300B4FD38 /* LaunchScreen.storyboard in Resources */,
+				84776A891E7B04F900D41E3E /* Main.storyboard in Resources */,
 				CD939A1A1E6562F300B4FD38 /* Assets.xcassets in Resources */,
-				CD939A181E6562F300B4FD38 /* Main.storyboard in Resources */,
+				84776A881E7B04F900D41E3E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8458C0AB1E7D87370050CE70 /* EmailLoginViewController.m in Sources */,
+				844292D81E7D0D9600E41B41 /* CreateAccountViewController.m in Sources */,
 				CD8A62DE1E66B85C00979AAC /* SignupViewController.m in Sources */,
 				CD939A321E65648300B4FD38 /* ViewController.m in Sources */,
 				CD939A0F1E6562F300B4FD38 /* main.m in Sources */,
 				CD939A3D1E65AD5800B4FD38 /* AMFUtils.m in Sources */,
+				8458C0AE1E7D8B2C0050CE70 /* PasswordRecoveryViewController.m in Sources */,
 				CD8A62E11E66B87100979AAC /* LoginViewController.m in Sources */,
 				CD939A3A1E65AD2D00B4FD38 /* AMFButton.m in Sources */,
 				CD939A351E65649100B4FD38 /* AppDelegate.m in Sources */,
@@ -272,22 +289,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CD939A161E6562F300B4FD38 /* Main.storyboard */ = {
+		84776A841E7B04F900D41E3E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CD939A171E6562F300B4FD38 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		CD939A1B1E6562F300B4FD38 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD939A1C1E6562F300B4FD38 /* Base */,
+				84776A851E7B04F900D41E3E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ..;
+			sourceTree = "<group>";
+		};
+		84776A861E7B04F900D41E3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84776A871E7B04F900D41E3E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -307,8 +322,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -351,8 +368,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -379,7 +398,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3EYUW49QFV;
 				INFOPLIST_FILE = "$(SRCROOT)/AmazFit/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ios.AmazFit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -390,7 +411,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3EYUW49QFV;
 				INFOPLIST_FILE = "$(SRCROOT)/AmazFit/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ios.AmazFit;
 				PRODUCT_NAME = "$(TARGET_NAME)";

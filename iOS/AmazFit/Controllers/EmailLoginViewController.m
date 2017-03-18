@@ -1,18 +1,18 @@
 //
-//  LoginViewController.m
+//  EmailLoginViewController.m
 //  AmazFit
 //
-//  Created by Anik on 3/1/17.
+//  Created by Anik on 3/18/17.
 //  Copyright © 2017 mTeam. All rights reserved.
 //
 
-#import "LoginViewController.h"
+#import "EmailLoginViewController.h"
 
-@interface LoginViewController ()
+@interface EmailLoginViewController ()
 
 @end
 
-@implementation LoginViewController
+@implementation EmailLoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,8 +23,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 - (IBAction)backButtonTouchedInside:(id)sender {
-    [self.navigationController popToRootViewControllerAnimated:YES];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 /*
