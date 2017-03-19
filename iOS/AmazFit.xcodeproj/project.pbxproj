@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842A15831E7EF9A200B8F9BE /* SetupOnbord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842A15811E7EF9A200B8F9BE /* SetupOnbord.storyboard */; };
 		844292D81E7D0D9600E41B41 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844292D71E7D0D9600E41B41 /* CreateAccountViewController.m */; };
 		8458C0AB1E7D87370050CE70 /* EmailLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458C0AA1E7D87370050CE70 /* EmailLoginViewController.m */; };
 		8458C0AE1E7D8B2C0050CE70 /* PasswordRecoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458C0AD1E7D8B2C0050CE70 /* PasswordRecoveryViewController.m */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842A15821E7EF9A200B8F9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AmazFit/Base.lproj/SetupOnbord.storyboard; sourceTree = SOURCE_ROOT; };
 		844292D61E7D0D9600E41B41 /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
 		844292D71E7D0D9600E41B41 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
 		8458C0A91E7D87370050CE70 /* EmailLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailLoginViewController.h; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			children = (
 				84776A841E7B04F900D41E3E /* LaunchScreen.storyboard */,
 				84776A861E7B04F900D41E3E /* Main.storyboard */,
+				842A15811E7EF9A200B8F9BE /* SetupOnbord.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				84776A891E7B04F900D41E3E /* Main.storyboard in Resources */,
 				CD939A1A1E6562F300B4FD38 /* Assets.xcassets in Resources */,
+				842A15831E7EF9A200B8F9BE /* SetupOnbord.storyboard in Resources */,
 				84776A881E7B04F900D41E3E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		842A15811E7EF9A200B8F9BE /* SetupOnbord.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842A15821E7EF9A200B8F9BE /* Base */,
+			);
+			name = SetupOnbord.storyboard;
+			sourceTree = "<group>";
+		};
 		84776A841E7B04F900D41E3E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
