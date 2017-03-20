@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		842A15831E7EF9A200B8F9BE /* SetupOnbord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842A15811E7EF9A200B8F9BE /* SetupOnbord.storyboard */; };
+		843B3C1F1E80485000B8FCE7 /* BluetoothCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B3C1E1E80485000B8FCE7 /* BluetoothCheckViewController.m */; };
+		843B3C221E8048D600B8FCE7 /* PairDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B3C211E8048D600B8FCE7 /* PairDeviceViewController.m */; };
+		843B3C251E8048E800B8FCE7 /* FinalizePairingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B3C241E8048E800B8FCE7 /* FinalizePairingViewController.m */; };
 		844292D81E7D0D9600E41B41 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844292D71E7D0D9600E41B41 /* CreateAccountViewController.m */; };
 		8458C0AB1E7D87370050CE70 /* EmailLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458C0AA1E7D87370050CE70 /* EmailLoginViewController.m */; };
 		8458C0AE1E7D8B2C0050CE70 /* PasswordRecoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458C0AD1E7D8B2C0050CE70 /* PasswordRecoveryViewController.m */; };
@@ -25,6 +28,12 @@
 
 /* Begin PBXFileReference section */
 		842A15821E7EF9A200B8F9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AmazFit/Base.lproj/SetupOnbord.storyboard; sourceTree = SOURCE_ROOT; };
+		843B3C1D1E80485000B8FCE7 /* BluetoothCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothCheckViewController.h; sourceTree = "<group>"; };
+		843B3C1E1E80485000B8FCE7 /* BluetoothCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothCheckViewController.m; sourceTree = "<group>"; };
+		843B3C201E8048D600B8FCE7 /* PairDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PairDeviceViewController.h; sourceTree = "<group>"; };
+		843B3C211E8048D600B8FCE7 /* PairDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PairDeviceViewController.m; sourceTree = "<group>"; };
+		843B3C231E8048E800B8FCE7 /* FinalizePairingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalizePairingViewController.h; sourceTree = "<group>"; };
+		843B3C241E8048E800B8FCE7 /* FinalizePairingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalizePairingViewController.m; sourceTree = "<group>"; };
 		844292D61E7D0D9600E41B41 /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
 		844292D71E7D0D9600E41B41 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
 		8458C0A91E7D87370050CE70 /* EmailLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailLoginViewController.h; sourceTree = "<group>"; };
@@ -62,6 +71,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		843B3C1B1E8047F900B8FCE7 /* LoginFlow */ = {
+			isa = PBXGroup;
+			children = (
+				CD939A301E65648300B4FD38 /* ViewController.h */,
+				CD939A311E65648300B4FD38 /* ViewController.m */,
+				CD8A62DC1E66B85C00979AAC /* SignupViewController.h */,
+				CD8A62DD1E66B85C00979AAC /* SignupViewController.m */,
+				CD8A62DF1E66B87100979AAC /* LoginViewController.h */,
+				CD8A62E01E66B87100979AAC /* LoginViewController.m */,
+				844292D61E7D0D9600E41B41 /* CreateAccountViewController.h */,
+				844292D71E7D0D9600E41B41 /* CreateAccountViewController.m */,
+				8458C0A91E7D87370050CE70 /* EmailLoginViewController.h */,
+				8458C0AA1E7D87370050CE70 /* EmailLoginViewController.m */,
+				8458C0AC1E7D8B2C0050CE70 /* PasswordRecoveryViewController.h */,
+				8458C0AD1E7D8B2C0050CE70 /* PasswordRecoveryViewController.m */,
+			);
+			name = LoginFlow;
+			sourceTree = "<group>";
+		};
+		843B3C1C1E80481C00B8FCE7 /* SetupOnboardFlow */ = {
+			isa = PBXGroup;
+			children = (
+				843B3C1D1E80485000B8FCE7 /* BluetoothCheckViewController.h */,
+				843B3C1E1E80485000B8FCE7 /* BluetoothCheckViewController.m */,
+				843B3C201E8048D600B8FCE7 /* PairDeviceViewController.h */,
+				843B3C211E8048D600B8FCE7 /* PairDeviceViewController.m */,
+				843B3C231E8048E800B8FCE7 /* FinalizePairingViewController.h */,
+				843B3C241E8048E800B8FCE7 /* FinalizePairingViewController.m */,
+			);
+			name = SetupOnboardFlow;
+			sourceTree = "<group>";
+		};
 		CD939A011E6562F300B4FD38 = {
 			isa = PBXGroup;
 			children = (
@@ -189,18 +230,8 @@
 		CD939A2F1E65648300B4FD38 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CD939A301E65648300B4FD38 /* ViewController.h */,
-				CD939A311E65648300B4FD38 /* ViewController.m */,
-				CD8A62DC1E66B85C00979AAC /* SignupViewController.h */,
-				CD8A62DD1E66B85C00979AAC /* SignupViewController.m */,
-				CD8A62DF1E66B87100979AAC /* LoginViewController.h */,
-				CD8A62E01E66B87100979AAC /* LoginViewController.m */,
-				844292D61E7D0D9600E41B41 /* CreateAccountViewController.h */,
-				844292D71E7D0D9600E41B41 /* CreateAccountViewController.m */,
-				8458C0A91E7D87370050CE70 /* EmailLoginViewController.h */,
-				8458C0AA1E7D87370050CE70 /* EmailLoginViewController.m */,
-				8458C0AC1E7D8B2C0050CE70 /* PasswordRecoveryViewController.h */,
-				8458C0AD1E7D8B2C0050CE70 /* PasswordRecoveryViewController.m */,
+				843B3C1C1E80481C00B8FCE7 /* SetupOnboardFlow */,
+				843B3C1B1E8047F900B8FCE7 /* LoginFlow */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -277,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843B3C221E8048D600B8FCE7 /* PairDeviceViewController.m in Sources */,
 				8458C0AB1E7D87370050CE70 /* EmailLoginViewController.m in Sources */,
 				844292D81E7D0D9600E41B41 /* CreateAccountViewController.m in Sources */,
 				CD8A62DE1E66B85C00979AAC /* SignupViewController.m in Sources */,
@@ -287,6 +319,8 @@
 				CD8A62E11E66B87100979AAC /* LoginViewController.m in Sources */,
 				CD939A3A1E65AD2D00B4FD38 /* AMFButton.m in Sources */,
 				CD939A351E65649100B4FD38 /* AppDelegate.m in Sources */,
+				843B3C1F1E80485000B8FCE7 /* BluetoothCheckViewController.m in Sources */,
+				843B3C251E8048E800B8FCE7 /* FinalizePairingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
