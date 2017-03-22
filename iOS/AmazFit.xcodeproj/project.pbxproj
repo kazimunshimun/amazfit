@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		842A15831E7EF9A200B8F9BE /* SetupOnbord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842A15811E7EF9A200B8F9BE /* SetupOnbord.storyboard */; };
+		842A15831E7EF9A200B8F9BE /* SetupOnboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842A15811E7EF9A200B8F9BE /* SetupOnboard.storyboard */; };
 		843B3C1F1E80485000B8FCE7 /* BluetoothCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B3C1E1E80485000B8FCE7 /* BluetoothCheckViewController.m */; };
 		843B3C221E8048D600B8FCE7 /* PairDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B3C211E8048D600B8FCE7 /* PairDeviceViewController.m */; };
 		843B3C251E8048E800B8FCE7 /* FinalizePairingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B3C241E8048E800B8FCE7 /* FinalizePairingViewController.m */; };
@@ -24,10 +24,11 @@
 		CD939A351E65649100B4FD38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD939A341E65649100B4FD38 /* AppDelegate.m */; };
 		CD939A3A1E65AD2D00B4FD38 /* AMFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD939A391E65AD2D00B4FD38 /* AMFButton.m */; };
 		CD939A3D1E65AD5800B4FD38 /* AMFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CD939A3C1E65AD5800B4FD38 /* AMFUtils.m */; };
+		CDEF8C011E828D6B00CEC115 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEF8C001E828D6B00CEC115 /* MMMaterialDesignSpinner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		842A15821E7EF9A200B8F9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AmazFit/Base.lproj/SetupOnbord.storyboard; sourceTree = SOURCE_ROOT; };
+		842A15821E7EF9A200B8F9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AmazFit/Base.lproj/SetupOnboard.storyboard; sourceTree = SOURCE_ROOT; };
 		843B3C1D1E80485000B8FCE7 /* BluetoothCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothCheckViewController.h; sourceTree = "<group>"; };
 		843B3C1E1E80485000B8FCE7 /* BluetoothCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothCheckViewController.m; sourceTree = "<group>"; };
 		843B3C201E8048D600B8FCE7 /* PairDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PairDeviceViewController.h; sourceTree = "<group>"; };
@@ -58,6 +59,8 @@
 		CD939A391E65AD2D00B4FD38 /* AMFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMFButton.m; sourceTree = "<group>"; };
 		CD939A3B1E65AD5800B4FD38 /* AMFUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFUtils.h; sourceTree = "<group>"; };
 		CD939A3C1E65AD5800B4FD38 /* AMFUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMFUtils.m; sourceTree = "<group>"; };
+		CDEF8BFF1E828D6B00CEC115 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		CDEF8C001E828D6B00CEC115 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,7 +207,7 @@
 			children = (
 				84776A841E7B04F900D41E3E /* LaunchScreen.storyboard */,
 				84776A861E7B04F900D41E3E /* Main.storyboard */,
-				842A15811E7EF9A200B8F9BE /* SetupOnbord.storyboard */,
+				842A15811E7EF9A200B8F9BE /* SetupOnboard.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 		CD939A2E1E6563F500B4FD38 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CDEF8BFE1E828D6B00CEC115 /* MMSpinner */,
 				CD939A381E65AD2D00B4FD38 /* AMFButton.h */,
 				CD939A391E65AD2D00B4FD38 /* AMFButton.m */,
 			);
@@ -234,6 +238,15 @@
 				843B3C1B1E8047F900B8FCE7 /* LoginFlow */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CDEF8BFE1E828D6B00CEC115 /* MMSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF8BFF1E828D6B00CEC115 /* MMMaterialDesignSpinner.h */,
+				CDEF8C001E828D6B00CEC115 /* MMMaterialDesignSpinner.m */,
+			);
+			path = MMSpinner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +309,7 @@
 			files = (
 				84776A891E7B04F900D41E3E /* Main.storyboard in Resources */,
 				CD939A1A1E6562F300B4FD38 /* Assets.xcassets in Resources */,
-				842A15831E7EF9A200B8F9BE /* SetupOnbord.storyboard in Resources */,
+				842A15831E7EF9A200B8F9BE /* SetupOnboard.storyboard in Resources */,
 				84776A881E7B04F900D41E3E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +331,7 @@
 				8458C0AE1E7D8B2C0050CE70 /* PasswordRecoveryViewController.m in Sources */,
 				CD8A62E11E66B87100979AAC /* LoginViewController.m in Sources */,
 				CD939A3A1E65AD2D00B4FD38 /* AMFButton.m in Sources */,
+				CDEF8C011E828D6B00CEC115 /* MMMaterialDesignSpinner.m in Sources */,
 				CD939A351E65649100B4FD38 /* AppDelegate.m in Sources */,
 				843B3C1F1E80485000B8FCE7 /* BluetoothCheckViewController.m in Sources */,
 				843B3C251E8048E800B8FCE7 /* FinalizePairingViewController.m in Sources */,
@@ -327,12 +341,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		842A15811E7EF9A200B8F9BE /* SetupOnbord.storyboard */ = {
+		842A15811E7EF9A200B8F9BE /* SetupOnboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				842A15821E7EF9A200B8F9BE /* Base */,
 			);
-			name = SetupOnbord.storyboard;
+			name = SetupOnboard.storyboard;
 			sourceTree = "<group>";
 		};
 		84776A841E7B04F900D41E3E /* LaunchScreen.storyboard */ = {

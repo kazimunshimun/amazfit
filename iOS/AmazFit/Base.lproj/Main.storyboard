@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lzx-XP-RTi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lzx-XP-RTi">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -273,7 +273,7 @@
                             </connections>
                         </barButtonItem>
                         <view key="titleView" contentMode="scaleToFill" id="e84-ce-e14">
-                            <rect key="frame" x="77.5" y="22" width="220" height="60"/>
+                            <rect key="frame" x="78" y="22" width="220" height="60"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lol-Ah-gbx">
@@ -905,10 +905,10 @@
             </objects>
             <point key="canvasLocation" x="2508" y="552"/>
         </scene>
-        <!--SetupOnbord-->
+        <!--SetupOnboard-->
         <scene sceneID="yiO-gD-0vd">
             <objects>
-                <viewControllerPlaceholder storyboardName="SetupOnbord" id="3nn-p1-XqO" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="SetupOnboard" id="3nn-p1-XqO" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ktP-K4-2Xb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3306" y="113"/>

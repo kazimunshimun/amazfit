@@ -7,6 +7,7 @@
 //
 
 #import "BluetoothCheckViewController.h"
+#import "PairDeviceViewController.h"
 
 @interface BluetoothCheckViewController ()
 
@@ -17,6 +18,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [NSTimer scheduledTimerWithTimeInterval:5.0
+                                     target:self
+                                   selector:@selector(startDeviceSearching)
+                                   userInfo:nil
+                                    repeats:NO];
+}
+
+-(void) startDeviceSearching{
+    
+    NSString * storyboardName = @"SetupOnboard";
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
+    PairDeviceViewController *pairDeviceVC = [storyboard instantiateViewControllerWithIdentifier:@"pairDeviceVC"];
+    [self.navigationController pushViewController:pairDeviceVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
