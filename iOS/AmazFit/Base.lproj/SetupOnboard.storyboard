@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -300,19 +301,49 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u8x-by-a9m" customClass="LinearProgressView">
+                                <rect key="frame" x="0.0" y="563" width="375" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="Hv6-qS-ahP"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="barThickness">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="barPadding">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="trackPadding">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progressValue">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="barColor">
+                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="3Vh-vJ-tjc" firstAttribute="top" secondItem="5Tx-ep-9Tn" secondAttribute="bottom" constant="20" id="47n-IR-vsI"/>
                             <constraint firstItem="3Vh-vJ-tjc" firstAttribute="centerX" secondItem="5Tx-ep-9Tn" secondAttribute="centerX" id="8wb-19-1Fa"/>
                             <constraint firstItem="Ir1-WB-In2" firstAttribute="centerX" secondItem="VTv-5C-atY" secondAttribute="centerX" id="AoG-c6-OHG"/>
+                            <constraint firstItem="Ir1-WB-In2" firstAttribute="top" secondItem="u8x-by-a9m" secondAttribute="bottom" constant="8" id="B1A-FJ-FrF"/>
                             <constraint firstItem="MIO-Zd-Rxb" firstAttribute="top" secondItem="ZdO-iS-ADP" secondAttribute="bottom" constant="20" id="CuP-Pe-91d"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="u8x-by-a9m" secondAttribute="trailing" constant="-16" id="JzM-rO-vun"/>
                             <constraint firstItem="6a1-Fi-g3D" firstAttribute="leading" secondItem="ZdO-iS-ADP" secondAttribute="trailing" constant="20" id="Ka6-cA-2U0"/>
                             <constraint firstItem="MIO-Zd-Rxb" firstAttribute="centerX" secondItem="ZdO-iS-ADP" secondAttribute="centerX" id="cSw-qk-TFL"/>
                             <constraint firstItem="5Tx-ep-9Tn" firstAttribute="centerY" secondItem="VTv-5C-atY" secondAttribute="centerY" id="eP5-fE-FOd"/>
                             <constraint firstItem="ZdO-iS-ADP" firstAttribute="centerY" secondItem="VTv-5C-atY" secondAttribute="centerY" id="hMO-fd-blY"/>
                             <constraint firstItem="5Tx-ep-9Tn" firstAttribute="leading" secondItem="6a1-Fi-g3D" secondAttribute="trailing" constant="20" id="jg7-ej-ZL0"/>
                             <constraint firstItem="mVJ-fX-uNr" firstAttribute="top" secondItem="Ir1-WB-In2" secondAttribute="bottom" constant="20" id="kr4-0P-gTH"/>
+                            <constraint firstItem="u8x-by-a9m" firstAttribute="leading" secondItem="VTv-5C-atY" secondAttribute="leadingMargin" constant="-16" id="pki-LB-Cfm"/>
                             <constraint firstItem="6a1-Fi-g3D" firstAttribute="centerX" secondItem="VTv-5C-atY" secondAttribute="centerX" id="rwD-l0-kEr"/>
                             <constraint firstItem="6a1-Fi-g3D" firstAttribute="centerY" secondItem="VTv-5C-atY" secondAttribute="centerY" id="wFC-aI-dKb"/>
                         </constraints>
