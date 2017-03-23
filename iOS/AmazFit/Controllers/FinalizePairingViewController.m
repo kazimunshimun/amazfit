@@ -25,7 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.searchSpinner startAnimating];
-    [NSTimer scheduledTimerWithTimeInterval:10.0
+    [NSTimer scheduledTimerWithTimeInterval:5.0
                                      target:self
                                    selector:@selector(startDoubleTappingInstraction)
                                    userInfo:nil

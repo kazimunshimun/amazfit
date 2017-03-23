@@ -204,6 +204,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="jLh-Ey-dxh" kind="showDetail" action="showViewController:sender:" id="0vM-K9-HOS"/>
+                                </connections>
                             </button>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tick" translatesAutoresizingMaskIntoConstraints="NO" id="RNj-9f-SqI">
                                 <rect key="frame" x="167" y="106" width="40" height="40"/>
@@ -251,12 +254,73 @@
                     <view key="view" contentMode="scaleToFill" id="VTv-5C-atY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6a1-Fi-g3D">
+                                <rect key="frame" x="186.5" y="233" width="1" height="200"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="n8S-Wm-OR0"/>
+                                    <constraint firstAttribute="width" constant="1" id="p8g-Rs-InE"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man_select" translatesAutoresizingMaskIntoConstraints="NO" id="ZdO-iS-ADP">
+                                <rect key="frame" x="81.5" y="291" width="85" height="85"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="woman_not_select" translatesAutoresizingMaskIntoConstraints="NO" id="5Tx-ep-9Tn">
+                                <rect key="frame" x="207.5" y="291" width="85" height="85"/>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Male" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIO-Zd-Rxb">
+                                <rect key="frame" x="105.5" y="396" width="37" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Female" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Vh-vJ-tjc">
+                                <rect key="frame" x="222" y="396" width="56" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ir1-WB-In2">
+                                <rect key="frame" x="127" y="607" width="120" height="40"/>
+                                <color key="backgroundColor" red="0.24313725489999999" green="0.23529411759999999" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="T4J-Z2-Px2"/>
+                                    <constraint firstAttribute="height" constant="40" id="iva-yF-poW"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="50" maxY="0.0"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3Vh-vJ-tjc" firstAttribute="top" secondItem="5Tx-ep-9Tn" secondAttribute="bottom" constant="20" id="47n-IR-vsI"/>
+                            <constraint firstItem="3Vh-vJ-tjc" firstAttribute="centerX" secondItem="5Tx-ep-9Tn" secondAttribute="centerX" id="8wb-19-1Fa"/>
+                            <constraint firstItem="Ir1-WB-In2" firstAttribute="centerX" secondItem="VTv-5C-atY" secondAttribute="centerX" id="AoG-c6-OHG"/>
+                            <constraint firstItem="MIO-Zd-Rxb" firstAttribute="top" secondItem="ZdO-iS-ADP" secondAttribute="bottom" constant="20" id="CuP-Pe-91d"/>
+                            <constraint firstItem="6a1-Fi-g3D" firstAttribute="leading" secondItem="ZdO-iS-ADP" secondAttribute="trailing" constant="20" id="Ka6-cA-2U0"/>
+                            <constraint firstItem="MIO-Zd-Rxb" firstAttribute="centerX" secondItem="ZdO-iS-ADP" secondAttribute="centerX" id="cSw-qk-TFL"/>
+                            <constraint firstItem="5Tx-ep-9Tn" firstAttribute="centerY" secondItem="VTv-5C-atY" secondAttribute="centerY" id="eP5-fE-FOd"/>
+                            <constraint firstItem="ZdO-iS-ADP" firstAttribute="centerY" secondItem="VTv-5C-atY" secondAttribute="centerY" id="hMO-fd-blY"/>
+                            <constraint firstItem="5Tx-ep-9Tn" firstAttribute="leading" secondItem="6a1-Fi-g3D" secondAttribute="trailing" constant="20" id="jg7-ej-ZL0"/>
+                            <constraint firstItem="mVJ-fX-uNr" firstAttribute="top" secondItem="Ir1-WB-In2" secondAttribute="bottom" constant="20" id="kr4-0P-gTH"/>
+                            <constraint firstItem="6a1-Fi-g3D" firstAttribute="centerX" secondItem="VTv-5C-atY" secondAttribute="centerX" id="rwD-l0-kEr"/>
+                            <constraint firstItem="6a1-Fi-g3D" firstAttribute="centerY" secondItem="VTv-5C-atY" secondAttribute="centerY" id="wFC-aI-dKb"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0nX-ZF-DUR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3860" y="-197"/>
+            <point key="canvasLocation" x="3860" y="-197.45127436281859"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9br-u8-xIV">
@@ -282,6 +346,8 @@
         <image name="controll_center" width="119" height="157"/>
         <image name="cross" width="32" height="32"/>
         <image name="iPhone_wireframe" width="158" height="271"/>
+        <image name="man_select" width="85" height="85"/>
         <image name="tick" width="40" height="40"/>
+        <image name="woman_not_select" width="85" height="85"/>
     </resources>
 </document>
