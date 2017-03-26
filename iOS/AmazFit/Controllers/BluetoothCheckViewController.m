@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [NSTimer scheduledTimerWithTimeInterval:5.0
+    [NSTimer scheduledTimerWithTimeInterval:1.0
                                      target:self
                                    selector:@selector(startDeviceSearching)
                                    userInfo:nil

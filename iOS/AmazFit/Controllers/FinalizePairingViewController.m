@@ -25,7 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.searchSpinner startAnimating];
-    [NSTimer scheduledTimerWithTimeInterval:5.0
+    [NSTimer scheduledTimerWithTimeInterval:1.0
                                      target:self
                                    selector:@selector(startDoubleTappingInstraction)
                                    userInfo:nil
@@ -39,7 +39,7 @@
     self.titleLabel.text = doubleTapInstructionTitle;
     self.pairingInfoLabel.hidden = NO;
     
-    [NSTimer scheduledTimerWithTimeInterval:5.0
+    [NSTimer scheduledTimerWithTimeInterval:1.0
                                      target:self
                                    selector:@selector(pairingSuccessfulInstraction)
                                    userInfo:nil

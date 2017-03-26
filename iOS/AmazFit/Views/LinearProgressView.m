@@ -39,6 +39,12 @@
     return [self getTrackHeight]/2;
 }
 
+-(CGFloat) calculatePercentage{
+    CGFloat screenWidth = self.frame.size.width - (_barPadding * 2) - ([self getTrackOffset] * 2);
+    CGFloat progress = ((_progressValue/100) * screenWidth);
+    return progress < 0 ? _barPadding : progress;
+}
+
 -(void) drawProgressView{
     CGContextRef context = UIGraphicsGetCurrentContext();
     
@@ -52,8 +58,15 @@
     CGContextSetLineCap(context, kCGLineCapRound);
     CGContextStrokePath(context);
     
+    CGFloat red[4] = {1.0f, 1.0f, 0.0f, 0.0f};
     //progress bar
-    
+    CGContextSetStrokeColor(context, red);
+    CGContextSetLineWidth(context, _barThickness);
+    CGContextBeginPath(context);
+    CGContextMoveToPoint(context, _barPadding + [self getTrackOffset], self.frame.size.height / 2);
+    CGContextAddLineToPoint(context, _barPadding + [self getTrackOffset] + [self calculatePercentage], self.frame.size.height/2);
+    CGContextSetLineCap(context, kCGLineCapRound);
+    CGContextStrokePath(context);
     /*
     CGContextSetRGBFillColor(context, finishedStepColorComponents[0], finishedStepColorComponents[1], finishedStepColorComponents[2], finishedStepColorAlpha);
     CGContextMoveToPoint(context, i * (stepWidth + 1), 0);
@@ -70,9 +83,6 @@
     /*
     // Progress Bar
     let barColor = barColorForValue != nil ? barColorForValue!(Float(progressValue)):self.barColor
-    context?.setStrokeColor(barColor.cgColor)
-    context?.setLineWidth(barThickness)
-    context?.beginPath()
     context?.move(to: CGPoint(x: barPadding + trackOffset, y: frame.size.height / 2))
     context?.addLine(to: CGPoint(x: barPadding + trackOffset + calcualtePercentage(), y: frame.size.height / 2))
     context?.setLineCap(CGLineCap.round)
